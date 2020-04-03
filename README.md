@@ -1,5 +1,6 @@
 # Image2Base64_PyQt5
 <<<<<<< HEAD
+<<<<<<< HEAD
 Image to Base64. Building for PyQt5
 =======
 
@@ -39,3 +40,7 @@ Image to Base64. Building for PyQt5
 5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
 6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
 >>>>>>> 5ca89a0a6905f0aa6986876842854033864b1010
+=======
+
+Image to Base64. Building for PyQt5
+>>>>>>> 4be54fe7880f20a05016b45d815a7272202911b9
