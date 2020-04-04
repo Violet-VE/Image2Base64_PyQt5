@@ -1,4 +1,3 @@
-from Ui_Image2Base64 import Ui_MainWindow
 from PyQt5 import QtWidgets, QtCore, QtGui
 import sys
 import base64
@@ -76,7 +75,7 @@ class ImageToBase64(QtWidgets.QMainWindow):
         )[0]
         if fileName == '':
             return
-        pixMap=QtGui.QPixmap(fileName)
+        pixMap = QtGui.QPixmap(fileName)
         self.showPixmap(pixMap)
 
 # 转换图片
@@ -85,15 +84,11 @@ class ImageToBase64(QtWidgets.QMainWindow):
         buffer = QtCore.QBuffer(byte_array)
         buffer.open(QtCore.QIODevice.WriteOnly)
         if fileName == '':
-            print("111111111")
             if pixMap.toImage().isNull() is True:
-                print("2222222")
                 return
             else:
-                print("3333333")
                 pixMap.save(buffer, "jpg")
         else:
-            print("44444")
             pixMap.save(buffer, fileName.split('.')[-1])
         ls_f = base64.b64encode(bytes(buffer.data()))
         self.base64View.setText("[base64str]:data:image/png;base64," +

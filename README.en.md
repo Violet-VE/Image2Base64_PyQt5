@@ -8,6 +8,7 @@ Image to Base64. Building for PyQt5
 
 - For Macdown embedded pictures.
 - You can open the picture or paste the picture with ctrl + v
+- Width greater than 320 pixels will zoom the picture
 
 **Todo**: Drag and drop pictures
 
