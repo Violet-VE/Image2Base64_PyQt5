@@ -4,6 +4,8 @@
 
 使用PyQt5构建的图片转Base64程序
 
+**使用需自行安装python3及pyqt5**
+
 ![avatar][image1]
 
 - 给Macdown内嵌图片用的。
